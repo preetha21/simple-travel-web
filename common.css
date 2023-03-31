@@ -1,0 +1,60 @@
+
+h1{
+    font-style: italic;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    
+}
+.b:link {
+    border-block-width: 3px;
+    border-block-end-style: dashed;
+    text-decoration: double;
+    color: white;
+    padding: 15px 32px;
+    text-align: right;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    border-radius: 60%;
+    cursor: pointer;
+    
+}
+.b:hover{
+    background-color: rgb(10, 97, 179);
+    color: aliceblue;
+    font-style: italic;
+    font-size: 10px;
+    margin: 4px 2px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.footer .links {
+    position: relative;
+    color: rgb(0, 0, 0);
+    flex: 1;
+    justify-content: right;
+    align-items: right;
+}
+
+.footer
+{
+    background-color:rgba(130, 222, 250, 0.4);
+    column-count: 2;    
+}
+.links li {
+    font-family: C;
+    cursor: pointer;
+}
+.links li:hover {
+    color: #0c03b2;
+}
